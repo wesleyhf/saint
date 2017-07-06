@@ -16,16 +16,13 @@ const santo = require('./santo.js');
 //     console.log('errou', err);
 // });
 
-// const p1 = (x) => x + 1;
-// const p2 = (x) => x * 2;
-
 const p1 = (x) => {
-    console.log(x);
+    // console.log(x);
     return x + 1;
 }
 
 const p2 = (x) => {
-    console.log(x);
+    // console.log(x);
     return x * 2;
 }
 
