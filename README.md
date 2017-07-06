@@ -1,13 +1,11 @@
-# santo 🙏
+# Santo is an organizer of promises. 🙏
 
-## Santo is an organizer of promises.
-
-### How to use it
+## How to use it
 ```js
 const santo = require('./santo.js');
 ```
 
-### Functions
+## Functions
 ```js
 santo.offer(val); // return a promise.resolve
 santo.bless(fun); // place a promise on the queue
@@ -16,9 +14,8 @@ santo.lifeGoesOn(fun); // runs when your promises has failed
 santo.pray(fun, err); // execute all your promises on queue
 ```
 
-### Examples
+## Examples
 
-#### Example 1
 ```js
 const p1 = x => x + 1;
 const p2 = x => x * 2;
@@ -34,7 +31,6 @@ santo.offer(1) // val is 1
     });
 ```
 
-#### Example 2
 ```js
 const p1 = () => console.log('p1');
 const p2 = () => console.log('p2');
