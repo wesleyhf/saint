@@ -1,6 +1,6 @@
 {
   "name": "santo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Santo is an organizer of promises",
   "main": "santo.js",
   "scripts": {
