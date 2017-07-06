@@ -2,7 +2,7 @@
   "name": "santo",
   "version": "0.0.1",
   "description": "Santo is an organizer of promises",
-  "main": "index.js",
+  "main": "santo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
