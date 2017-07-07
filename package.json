@@ -1,6 +1,6 @@
 {
   "name": "saint",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "saint is an organizer of promises",
   "main": "saint.js",
   "scripts": {
