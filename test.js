@@ -1,7 +1,7 @@
-const santo = require('./santo.js');
+const saint = require('./saint.js');
 
 // test 1
-// let test = santo.promise((data) => {
+// let test = saint.promise((data) => {
 //     let arr;
 //
 //     return 'xablau';
@@ -26,24 +26,24 @@ const p2 = (x) => {
     return x * 2;
 }
 
-santo.offer(1)
+saint.offer(1)
     .bless(p1)
     .bless(p2)
     .pray((x) => {
         console.log(x);
     });
 
-// santo.bless(() => console.log('z'));
+// saint.bless(() => console.log('z'));
 
 // const p1 = () => console.log('promessa 1');
 // const p2 = () => console.log('promessa 2');
 // const p3 = () => console.l('ferrou');
 
 // test 2
-// santo.bless(p1);
-// console.log(santo);
+// saint.bless(p1);
+// console.log(saint);
 
-// santo.bless(p1)
+// saint.bless(p1)
     // .bless(p3)
     // .miracle(() => {
     //     console.log('miracle aconteceu viva');
@@ -53,12 +53,12 @@ santo.offer(1)
     // })
     // .pray();
 
-// santo.bless(p2);
-// console.log(santo);
+// saint.bless(p2);
+// console.log(saint);
 
 // console.log('caramba haha');
 //
-// santo.wish(() => {
+// saint.wish(() => {
 //     console.log('asdasdasdasd');
 // });
 //

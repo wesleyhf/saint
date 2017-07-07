@@ -1,25 +1,25 @@
 {
-  "name": "santo",
+  "name": "saint",
   "version": "0.0.2",
-  "description": "Santo is an organizer of promises",
-  "main": "santo.js",
+  "description": "saint is an organizer of promises",
+  "main": "saint.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wesleyhf/santo.git"
+    "url": "git+https://github.com/wesleyhf/saint.git"
   },
   "keywords": [
-    "santo",
-    "santojs",
+    "saint",
+    "saintjs",
     "promise",
     "promises"
   ],
   "author": "Wesley Henrique Francisco",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wesleyhf/santo/issues"
+    "url": "https://github.com/wesleyhf/saint/issues"
   },
-  "homepage": "https://github.com/wesleyhf/santo#readme"
+  "homepage": "https://github.com/wesleyhf/saint#readme"
 }
