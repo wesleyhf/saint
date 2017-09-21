@@ -1,9 +1,5 @@
 # Saint is an organizer of promises. 🙏
 
-## npm
-
-https://www.npmjs.com/package/saint
-
 ## How to use it
 ```js
 const saint = require('./saint.js');
